@@ -1,4 +1,5 @@
 # Builds lists of kmers and their frequencies
+# Slow algorithm, needs improvement
 def freq_kmers(genome, k):
     kmers = {}
     freqs = {}
